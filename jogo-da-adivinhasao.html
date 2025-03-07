@@ -1,0 +1,20 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+    <script>
+        let numeroAleatorio = Math.random()*100;
+        let numeroAleatorioInteiro = Math.round(numeroAleatorio)
+        let resposta = prompt("Vamos ver se você tem sorte, tente acertar o número que estou pensando.")
+        if (resposta == numeroAleatorioInteiro){
+            document.write("Meus parabéns, você conseguiu:)")
+        }else{
+            document.write("F. Você errou :( o número era " + numeroAleatorioInteiro)
+        }
+    </script>
+</body>
+</html>
